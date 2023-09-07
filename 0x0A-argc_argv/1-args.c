@@ -5,10 +5,9 @@
  *@argv[]: an argument vector
  *Return: always returns zero value
  */
-int main(int argc ,__attribute__((unused))char *argv[])
-{ 
+int main(int argc, __attribute__((unused))char *argv[])
+{
 int c = argc - 1;
-printf("%d\n" , c);
-
-return 0;
+printf("%d\n", c);
+return (0);
 }
